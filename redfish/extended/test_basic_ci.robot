@@ -81,6 +81,14 @@ Test SSH And IPMI Connections
     Run IPMI Standard Command  chassis status
 
 
+Test SSH And NOIPMI Connections
+    [Documentation]  Try SSH without IPMI commands to verify each connection.
+    [Tags]  Test_SSH_And_IPMI_Connections
+
+    BMC Execute Command  true
+    # Run IPMI Standard Command  chassis status
+
+
 *** Keywords ***
 
 Test Setup Execution
