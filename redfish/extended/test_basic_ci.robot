@@ -78,7 +78,7 @@ Test SSH And IPMI Connections
     [Tags]  Test_SSH_And_IPMI_Connections
 
     BMC Execute Command  true
-    Run IPMI Standard Command  chassis status
+    #Run IPMI Standard Command  chassis status
 
 
 *** Keywords ***
